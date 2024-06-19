@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>FS Category</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue) {
+  // Check if the changed control is the Type field
+  if (control == 'type') {
+    var typeValue = g_form.getValue('type');
+    var showSubtype = typeValue === 'Promotion'; // Strict comparison for exact match
+
+    // Update visibility and mandatory status of the Sub Type field
+    g_form.setDisplay('sub_type', showSubtype);
+  }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 05:40:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22343ddac3fac21098fbb1fdd40131a3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FS Category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Future Stars Esports" source="x_1317537_future_0">7a216d92c3bac21098fbb1fdd4013138</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Future Stars Esports">7a216d92c3bac21098fbb1fdd4013138</sys_scope>
+        <sys_update_name>sys_script_client_22343ddac3fac21098fbb1fdd40131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 05:42:40</sys_updated_on>
+        <table>x_1317537_future_0_management_expense</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Future Stars Esports">7a216d92c3bac21098fbb1fdd4013138</application>
+        <file_path/>
+        <instance_id>bd0102253b3ace10a36804e0b5e45a50</instance_id>
+        <instance_name>dev275375</instance_name>
+        <name>sys_script_client_22343ddac3fac21098fbb1fdd40131a3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;FS Category&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue) {
+  // Check if the changed control is the Type field
+  if (control == 'type') {
+    var typeValue = g_form.getValue('type');
+    var showSubtype = typeValue === 'Promotion'; // Strict comparison for exact match
+
+    // Update visibility and mandatory status of the Sub Type field
+    g_form.setDisplay('sub_type', showSubtype);
+  }
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-17 05:40:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;22343ddac3fac21098fbb1fdd40131a3&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;FS Category&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Future Stars Esports" source="x_1317537_future_0"&gt;7a216d92c3bac21098fbb1fdd4013138&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Future Stars Esports"&gt;7a216d92c3bac21098fbb1fdd4013138&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_22343ddac3fac21098fbb1fdd40131a3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-17 05:42:40&lt;/sys_updated_on&gt;&lt;table&gt;x_1317537_future_0_management_expense&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2018180385</payload_hash>
+        <record_name>FS Category</record_name>
+        <reverted_from/>
+        <source>fa216d92c3bac21098fbb1fdd401313c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 05:42:40</sys_created_on>
+        <sys_id>d216b19ec3fac21098fbb1fdd40131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19024b80da40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 05:42:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>9a16b19ee6fac21001a59fd8eac51bae</update_guid>
+        <update_guid_history>9a16b19ee6fac21001a59fd8eac51bae:2018180385,53b5755e57fac2100f89f5f0b81aa0bb:-1215244660,aca5395ec5fac210446a30555757569f:-798627699,3885bd16a5fac2107bd0398613d260df:-62059479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-17 05:44:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>756145409c7a4800ad889c42e0900000</sys_id>
+        <sys_metadata>22343ddac3fac21098fbb1fdd40131a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FS Category</sys_name>
+        <sys_package display_value="Future Stars Esports" source="x_1317537_future_0">7a216d92c3bac21098fbb1fdd4013138</sys_package>
+        <sys_parent display_value="Management Expense">a758691ec3bac21098fbb1fdd4013106</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Future Stars Esports">7a216d92c3bac21098fbb1fdd4013138</sys_scope>
+        <sys_scope_delete display_value="">82ce29799d8e478d924f7d72f2942db9</sys_scope_delete>
+        <sys_update_name>sys_script_client_22343ddac3fac21098fbb1fdd40131a3</sys_update_name>
+        <sys_update_version display_value="sys_script_client_22343ddac3fac21098fbb1fdd40131a3">d216b19ec3fac21098fbb1fdd40131af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-17 05:44:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

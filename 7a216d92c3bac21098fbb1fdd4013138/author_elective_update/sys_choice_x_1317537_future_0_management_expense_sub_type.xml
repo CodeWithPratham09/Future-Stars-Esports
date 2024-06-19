@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sub_type" table="x_1317537_future_0_management_expense" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sub_type</element>
+            <name>x_1317537_future_0_management_expense</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 05:03:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sub_type</sys_name>
+            <sys_package display_value="Future Stars Esports" source="x_1317537_future_0">7a216d92c3bac21098fbb1fdd4013138</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Future Stars Esports">7a216d92c3bac21098fbb1fdd4013138</sys_scope>
+            <sys_update_name>sys_choice_x_1317537_future_0_management_expense_sub_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 05:03:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Promotion</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Instagram</label>
+            <language>en</language>
+            <name>x_1317537_future_0_management_expense</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 05:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 05:03:33</sys_updated_on>
+            <value>Instagram</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Promotion</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Whatsapp</label>
+            <language>en</language>
+            <name>x_1317537_future_0_management_expense</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 05:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 05:03:33</sys_updated_on>
+            <value>Whatsapp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Promotion</dependent_value>
+            <element>sub_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Discord</label>
+            <language>en</language>
+            <name>x_1317537_future_0_management_expense</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-17 05:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-17 05:03:33</sys_updated_on>
+            <value>Discord</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

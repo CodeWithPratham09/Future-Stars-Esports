@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a758691ec3bac21098fbb1fdd4013106" label="Management Expense" max_length="40" name="x_1317537_future_0_management_expense" type="collection">
+        <element label="Employee " max_length="40" name="employee" type="string"/>
+        <element label="Amount" max_length="40" name="amount" type="string"/>
+        <element label="Remark" max_length="40" name="remark" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GFX" sequence="3" value="GFX"/>
+                <element inactive_on_update="false" label="VFX" sequence="4" value="VFX"/>
+                <element inactive_on_update="false" label="Salary" sequence="0" value="Salary"/>
+                <element inactive_on_update="false" label="Other Expense" sequence="5" value="Other"/>
+                <element inactive_on_update="false" label="Promotion" sequence="2" value="Promotion"/>
+                <element inactive_on_update="false" label="Caster" sequence="1" value="Caster"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="type" dependent_on_field="type" label="Sub Type" max_length="40" name="sub_type" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Promotion" inactive_on_update="false" label="Whatsapp" sequence="1" value="Whatsapp"/>
+                <element dependent_value="Promotion" inactive_on_update="false" label="Discord" sequence="2" value="Discord"/>
+                <element dependent_value="Promotion" inactive_on_update="false" label="Instagram" sequence="0" value="Instagram"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

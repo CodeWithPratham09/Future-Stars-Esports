@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8fc1a9d2c3bac21098fbb1fdd4013160" label="Team Expense" max_length="40" name="x_1317537_future_0_team_expense" type="collection">
+        <element label="Win" mandatory="true" max_length="40" name="win" type="integer"/>
+        <element label="Links" max_length="1024" name="links" type="url"/>
+        <element label="Entry Fee" mandatory="true" max_length="40" name="entry_fee" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Match Time" mandatory="true" max_length="40" name="match_time" type="string"/>
+        <element label="Attachements" max_length="40" name="attachements" type="file_attachment"/>
+        <element label="Organizer" mandatory="true" max_length="40" name="organizer" type="string"/>
+        <element label="Remarks" max_length="40" name="remarks" type="string"/>
+        <element label="Total Matches" mandatory="true" max_length="40" name="no_of_matches" type="integer"/>
+        <element label="Stage" mandatory="true" max_length="40" name="stage" type="string"/>
+        <element formula="SUBTRACT(win,entry_fee)" label="Profit &amp; Loss" max_length="40" name="profit_loss" type="integer" virtual="true" virtual_type="formula"/>
+        <element label="Result" mandatory="true" max_length="40" name="result" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Team Expense">031bf156c33ec21098fbb1fdd40131b4</cat_item>
         <category/>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-17 06:12:42</sys_created_on>
         <sys_id>6bdcbdd6c33ec21098fbb1fdd4013113</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Attachments</sys_name>
         <sys_package display_value="Future Stars Esports" source="x_1317537_future_0">7a216d92c3bac21098fbb1fdd4013138</sys_package>
         <sys_policy/>
         <sys_scope display_value="Future Stars Esports">7a216d92c3bac21098fbb1fdd4013138</sys_scope>
         <sys_update_name>item_option_new_6bdcbdd6c33ec21098fbb1fdd4013113</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-17 06:12:45</sys_updated_on>
+        <sys_updated_on>2024-06-17 06:26:34</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
